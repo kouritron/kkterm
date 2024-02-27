@@ -1,0 +1,21 @@
+{
+    "search.exclude": {
+        "**/.yarn": true,
+        "**/.pnp.*": true,
+        "**/.Trash-*": true,
+    },
+    // -----------------------------------------------------------------------------------------------------------------
+    // these settings are overridden based on the file contents if `editor.detectIndentation` is true.
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    // Set to false to keep the values you've explicitly set, above.
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "all",
+    // -----------------------------------------------------------------------------------------------------------------
+    "editor.guides.indentation": true,
+
+    // that stupid convert require to import bug ms refuses to fix, and closed the issue as well.
+    // "javascript.validate.enable": true,
+    // "javascript.suggestionActions.enabled": true,
+
+}
